@@ -1,0 +1,32 @@
+.menu-container {
+  background-color: #03AED2;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .menu-lista {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+
+    .menu-item {
+      line-height: 25px;
+      font-weight: 500;
+      color: white;
+
+      cursor: pointer;
+    }
+
+  }
+
+  .perfil {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+}
