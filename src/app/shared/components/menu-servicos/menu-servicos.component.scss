@@ -1,0 +1,33 @@
+.menu-servicos {
+  background-color: #ccc;
+
+  .menu-items {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .menu-lista {
+
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      font-weight: 550;
+      font-size: 14x;
+      gap: 1.2rem;
+      list-style: none;
+
+      .menu-item {
+        padding: 0.3rem;
+        background-color: rgb(230, 230, 230);
+        border-radius: 2px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.1rem;
+      }
+    }
+
+  }
+
+}
